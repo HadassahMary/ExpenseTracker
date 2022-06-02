@@ -1,0 +1,43 @@
+.chart {
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: #bc9f9f;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    height: 10rem;
+  }
+
+  /* Chart Bar CSS */
+
+  .chart-bar {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .chart-bar__inner {
+    height: 100%;
+    width: 100%;
+    border: 0.01rem solid #dcd1d2;
+    border-radius: 12px;
+    background-color: #dcd1d2;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  .chart-bar__fill {
+    border-radius: 12px;
+    background-color: #293742;
+    width: 100%;
+    transition: all 0.3s ease-out;
+  }
+  
+  .chart-bar__label {
+    font-weight: bold;
+    font-size: 0.5rem;
+    text-align: center;
+  }
